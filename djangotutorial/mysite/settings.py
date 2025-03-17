@@ -25,8 +25,13 @@ SECRET_KEY = 'django-insecure-ke%scx3gn9nuc7=tuuwlbh697%u&yz_01@667@jsk#t=flm4+d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com','localhost']
+=======
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com','localhost','0.0.0.0']
+>>>>>>> main
 
+#  python manage.py runserver 0.0.0.0:8000→localhost:8080でアクセスする
 
 # Application definition
 
@@ -37,7 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'blog.apps.BlogConfig',
+=======
+    'blog'
+>>>>>>> main
 ]
 
 MIDDLEWARE = [
