@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 djangotutorial/infra/db/db_data/
->>>>>>> main
 *.pyc
 *~
 /.vscode
@@ -9,9 +6,6 @@ __pycache__
 myvenv
 db.sqlite3
 /static
-<<<<<<< HEAD
 .DS_Store
 djangotutorial/.env
-=======
 .DS_Store
->>>>>>> main
