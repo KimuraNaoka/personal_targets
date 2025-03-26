@@ -93,7 +93,7 @@ DATABASES = {
         # 上記ユーザーのパスワードを記載
         "PASSWORD": "sample_pass",
         # データベースのホスト名を記載（docker-composeで作成した場合、コンテナ名でアクセスできる）
-        "HOST": "db",
+        'HOST': 'yourusername.mysql.pythonanywhere-services.com',
         # 対象サーバー（コンテナ）のポート番号を記載
         "PORT": "3306",
     }
